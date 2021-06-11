@@ -12,6 +12,8 @@ target 'appdrinkscock_danubio' do
     :hermes_enabled => false
   )
 
+  pod 'RNCMaskedView', :path => '../node_modules/@react-native-community/masked-view'
+
   target 'appdrinkscock_danubioTests' do
     inherit! :complete
     # Pods for testing
