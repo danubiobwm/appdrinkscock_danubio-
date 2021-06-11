@@ -1,6 +1,6 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import {Home, Drink} from '../pages';
+import {Home, DrinkScreen} from '../pages';
 
 const AppNavigator = createStackNavigator(
   {
@@ -12,7 +12,7 @@ const AppNavigator = createStackNavigator(
     },
 
     Drinks: {
-      screen: Drink,
+      screen: DrinkScreen,
       navigationOptions: () => ({
         headerShown: false,
       }),
